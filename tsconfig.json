@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "outDir": "./buildOutput/",
+      "noImplicitAny": true,
+      "sourceMap": true,
+      "target": "es6",
+      "module": "commonjs",
+      "lib": [
+        "es6",
+        "es2015.promise"
+      ],
+      "typeRoots": [
+      "./node_modules/@types"
+      ],
+      "skipLibCheck": true
+    },
+    "exclude": [
+    "buildOutput",
+    "coverage",
+    "deploy",
+    "node_modules"
+  ]
+}
