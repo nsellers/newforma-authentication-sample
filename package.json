@@ -1,27 +1,22 @@
 {
-  "name": "enterprise-integration-sample",
+  "name": "newformaauthjavascriptsample",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
-  "scripts": {
-    "build": "tsc --p tsconfig.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Newforma/enterprise-integration-sample.git"
-  },
-  "author": "mjendza@newforma.com",
-  "license": "ISC",
+  "description": "NewformaAuthSample",
+  "main": "script.js",
   "dependencies": {
-    "@types/aws4": "1.5.1",
-    "@types/node": "7.0.4",
-    "@types/phantomjs": "1.9.29",
-    "@types/selenium-webdriver": "3.0.10",
-    "aws4": "1.7.0",
-    "got": "8.2.0",
-    "phantomjs": "2.1.7",
-    "selenium-webdriver": "3.0.0-beta-3",
-    "typescript": "2.9.2",
-    "url": "0.11.0"
-  }
+    "aws4": "^1.8.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^3.1.9-1",
+    "evaporate": "^2.1.4",
+    "https": "^1.0.0",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Sellers",
+  "license": "ISC"
 }
