@@ -8,7 +8,7 @@ Newforma uses Azure Active Directory to authenticate users in our Newforma Proje
 Newforma has provided an Authentication Sample App which can be used to demonstrate the process of accessing our /login endpoint and then it will display a list of projects from the /projects endpoint. The sample has been written in JavaScript using Node.js and the AWS JS SDK.
 
 There are a few pre-requisites before you can run the example code. Please install Node.js and npm. Node.js is a JavaScript runtime built on Chrome's V8 JavaScript Engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. The node package manager (npm) is a command line interface program that manages node.js libraries. 
-To install both of these tools you can visit npmjs.com. Click on the "Download Node.js and npm" button. After the installation is complete test your install with the commands `node -v` and `npm -v`.
+To install both of these tools you can visit [npmjs.com](https://www.npmjs.com). Click on the "Download Node.js and npm" button. After the installation is complete test your install with the commands `node -v` and `npm -v`.
 
 1. Download or clone the Authentication Example code git repository.
 With your favorite git client or code editor clone the Authenitcation repository. If you prefer you can download it directly, Zip Direct Download. If you download directly unzip to an easy to find location.
