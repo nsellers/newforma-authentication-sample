@@ -28,4 +28,6 @@ authProvider.login(loginURL).then((result) => {
     console.log(JSON.stringify(myProjects));
     return generatedTokens;
   })
+}).catch(function(err){
+	console.log(err)
 })

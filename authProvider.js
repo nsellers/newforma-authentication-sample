@@ -19,7 +19,7 @@ return fetch(url, {
 if(response.status == 200){
   return response.json();
 }else {
-  return Promise.reject(new error("Failed to login!"));
+  return Promise.reject(new Error("Failed to Login. Receieved HTTP status " + response.status));
 }
 });
 
